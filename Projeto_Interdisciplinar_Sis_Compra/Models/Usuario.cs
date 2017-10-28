@@ -11,6 +11,10 @@ namespace Projeto_Interdisciplinar_Sis_Compra.Models
         public string Nome { get; set; }
         public char Sexo { get; set; }
         public DateTime DataNascimento { get; set; }
-
+        public int Cpf { get; set; }
+        public string Login { get; set; }
+        public string Senha { get; set; }
+        public Cartao cartao { get; set; }
+        public Endereco endereco { get; set; }
     }
 }

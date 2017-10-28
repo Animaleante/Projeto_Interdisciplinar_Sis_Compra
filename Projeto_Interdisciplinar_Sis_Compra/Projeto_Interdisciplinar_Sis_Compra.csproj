@@ -101,6 +101,7 @@
     <Compile Include="Models\Cartao.cs" />
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Compra.cs" />
+    <Compile Include="Models\Endereco.cs" />
     <Compile Include="Models\Fabricante.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Usuario.cs" />

@@ -8,6 +8,7 @@ namespace Projeto_Interdisciplinar_Sis_Compra.Models
     public class Compra
     {
         public Produto produto { get; set; }
+        public Usuario usuario { get; set; }
         public double Desconto { get; set; }
         public double PrecoFinal { get; set; }
     }
