@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projeto_Interdisciplinar_Sis_Compra.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +9,11 @@ namespace Projeto_Interdisciplinar_Sis_Compra.Controllers
 {
     public class FabricantesController : Controller
     {
+        private EFContext context = new EFContext();
         // GET: Fabricantes
         public ActionResult Index()
         {
-            return View();
+            return View(context.Fabricantes.OrderBy(f => f.Nome));
         }
     }
 }
